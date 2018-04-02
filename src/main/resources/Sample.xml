@@ -1,0 +1,1091 @@
+
+success in check / maintain channel partner:
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:glob="http://sap.com/xi/SAPGlobal20/Global" xmlns:a12="http://sap.com/xi/AP/CustomerExtension/BYD/A126Q"
+	xmlns:yil="http://0001228888-one-off.sap.com/YILB8I58Y_">
+	<soapenv:Header />
+	<soapenv:Body>
+		<glob:ChannelPartnerBundleMaintainRequest_sync_V1>
+			<ChannelPartner actionCode="02">
+				<InternalID>6053303</InternalID>
+				<ContactPerson actionCode="01"
+					workplaceTelephoneListCompleteTransmissionIndicator="true">
+					<GivenName>AscendPEUserFirstTest</GivenName>
+					<FamilyName>AscendPEUserLastTest</FamilyName>
+					<a12:ZUserName>AscendPeuser01</a12:ZUserName>
+					<a12:ZUserID>AscendPeuser01</a12:ZUserID>
+					<a12:ZJobRole>231</a12:ZJobRole>
+					<a12:ZBusinessFunction>121</a12:ZBusinessFunction>
+					<a12:ZLanguagePreference>EN</a12:ZLanguagePreference>
+					<a12:ZTitle>sr</a12:ZTitle>
+					<WorkplaceEmailURI>test4544@ntta.com</WorkplaceEmailURI>
+					<WorkplaceTelephone>
+						<FormattedNumberDescription>7045674356
+						</FormattedNumberDescription>
+						<MobilePhoneNumberIndicator>false</MobilePhoneNumberIndicator>
+					</WorkplaceTelephone>
+					<OrgBusinessAddressInformation>
+						<StreetName>757 3rd Ave</StreetName>
+						<StreetPrefix>Fl 14</StreetPrefix>
+						<AdditionalStreetPrefix></AdditionalStreetPrefix>
+						<CountryCode>US</CountryCode>
+						<RegionCode>NY</RegionCode>
+						<CityName>New York</CityName>
+						<StreetPostalCode>10017</StreetPostalCode>
+					</OrgBusinessAddressInformation>
+					<a12:ZSaleOfficeID_KUT>17894227</a12:ZSaleOfficeID_KUT>
+					<yil:ZSalesOffice_EMPID>17894227</yil:ZSalesOffice_EMPID>
+					<yil:ZSalesOffice_EMP>17894227</yil:ZSalesOffice_EMP>
+					<a12:ZPrimarySiteAccountID>17894227</a12:ZPrimarySiteAccountID>
+					<a12:ZAddressCMATID_salesoffice>17894227
+					</a12:ZAddressCMATID_salesoffice>
+					<a12:ZAddressCMATID>17894227</a12:ZAddressCMATID>
+					<a12:Z_CMAT_ID>6053303</a12:Z_CMAT_ID>
+					<yil:Z_CMAT_ID_SDK>6053303</yil:Z_CMAT_ID_SDK>
+					<a12:OtherJobRole>'Corporate Marketing','Customer Support
+						Management''Corporate Marketing','Customer Support Management'
+					</a12:OtherJobRole>
+					<a12:AreaofInterest1>'OCI''OCI'</a12:AreaofInterest1>
+					<a12:ZEmail_KUT>test4544@ntta.com</a12:ZEmail_KUT>
+					<a12:ZCampaignLeadGen>false</a12:ZCampaignLeadGen>
+					<a12:ZNewsAlerts>false</a12:ZNewsAlerts>
+					<a12:ZSurveys>false</a12:ZSurveys>
+					<a12:ZNewsletter>false</a12:ZNewsletter>
+					<a12:ZEventsOnlineEvents>false</a12:ZEventsOnlineEvents>
+					<a12:ZTechnicalBusinessUpdates>false
+					</a12:ZTechnicalBusinessUpdates>
+					<a12:ZPEUser>101</a12:ZPEUser>
+					<a12:ZContactActivationStatus>Active</a12:ZContactActivationStatus>
+					<a12:SSOApprovalStatus>111</a12:SSOApprovalStatus>
+					<a12:ZSSOApprovalStatus>111</a12:ZSSOApprovalStatus>
+					<a12:ZBusinessLastModifiedDate>2018-03-20T00:00:00Z
+					</a12:ZBusinessLastModifiedDate>
+					<a12:ZContactActivationStatus>Active</a12:ZContactActivationStatus>
+					<a12:SSOApprovalStatus>111</a12:SSOApprovalStatus>
+					<a12:ZSSOApprovalStatus>111</a12:ZSSOApprovalStatus>
+					<a12:ZBusinessChangeDate>2018-03-20T06:41:00Z
+					</a12:ZBusinessChangeDate>
+					<a12:ZBusinessChangeDTStamp>20180320064100.000000
+					</a12:ZBusinessChangeDTStamp>
+					<a12:ZCreatorSourceSystem>C4C_UserREG</a12:ZCreatorSourceSystem>
+					<a12:ZUpdatedbySourceSystem>C4C_UserREG
+					</a12:ZUpdatedbySourceSystem>
+					<a12:ZBusinessCreateDate>2018-03-20T06:41:00Z
+					</a12:ZBusinessCreateDate>
+					<a12:ZIntegrationRequired>true</a12:ZIntegrationRequired>
+				</ContactPerson>
+			</ChannelPartner>
+		</glob:ChannelPartnerBundleMaintainRequest_sync_V1>
+	</soapenv:Body>
+</soapenv:Envelope>
+
+## FOR FAILURE SCENARIO : Request Activation
+
+success in check / maintain
+channel partner:
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:glob="http://sap.com/xi/SAPGlobal20/Global" xmlns:a12="http://sap.com/xi/AP/CustomerExtension/BYD/A126Q"
+	xmlns:yil="http://0001228888-one-off.sap.com/YILB8I58Y_">
+	<soapenv:Header />
+	<soapenv:Body>
+		<glob:ChannelPartnerBundleMaintainRequest_sync_V1>
+			<ChannelPartner actionCode="02">
+				<InternalID>6053303</InternalID>
+				<ContactPerson actionCode="01"
+					workplaceTelephoneListCompleteTransmissionIndicator="true">
+					<GivenName>AscendFailScenarioTest</GivenName>
+					<FamilyName>AscendFailScenarioLast</FamilyName>
+					<a12:ZUserName>AscendNegativeScenario01</a12:ZUserName>
+					<a12:ZUserID>AscendNegativeScenario01</a12:ZUserID>
+					<a12:ZJobRole>241</a12:ZJobRole>
+					<a12:ZBusinessFunction>121</a12:ZBusinessFunction>
+					<a12:ZLanguagePreference>EN</a12:ZLanguagePreference>
+					<a12:ZTitle>jr</a12:ZTitle>
+					<WorkplaceEmailURI>test4567@ntta.com</WorkplaceEmailURI>
+					<WorkplaceTelephone>
+						<FormattedNumberDescription>9897654534
+						</FormattedNumberDescription>
+						<MobilePhoneNumberIndicator>false</MobilePhoneNumberIndicator>
+					</WorkplaceTelephone>
+					<OrgBusinessAddressInformation>
+						<StreetName>757 3rd Ave</StreetName>
+						<StreetPrefix>Fl 14</StreetPrefix>
+						<AdditionalStreetPrefix></AdditionalStreetPrefix>
+						<CountryCode>US</CountryCode>
+						<RegionCode>NY</RegionCode>
+						<CityName>New York</CityName>
+						<StreetPostalCode>10017</StreetPostalCode>
+					</OrgBusinessAddressInformation>
+					<a12:ZSaleOfficeID_KUT>17894227</a12:ZSaleOfficeID_KUT>
+					<yil:ZSalesOffice_EMPID>17894227</yil:ZSalesOffice_EMPID>
+					<yil:ZSalesOffice_EMP>17894227</yil:ZSalesOffice_EMP>
+					<a12:ZPrimarySiteAccountID>17894227</a12:ZPrimarySiteAccountID>
+					<a12:ZAddressCMATID_salesoffice>17894227
+					</a12:ZAddressCMATID_salesoffice>
+					<a12:ZAddressCMATID>17894227</a12:ZAddressCMATID>
+					<a12:Z_CMAT_ID>6053303</a12:Z_CMAT_ID>
+					<yil:Z_CMAT_ID_SDK>6053303</yil:Z_CMAT_ID_SDK>
+					<a12:OtherJobRole>'Customer Support Management''Customer Support
+						Management'
+					</a12:OtherJobRole>
+					<a12:AreaofInterest1>'SolidFire''SolidFire'</a12:AreaofInterest1>
+					<a12:ZEmail_KUT>test4567@ntta.com</a12:ZEmail_KUT>
+					<a12:ZCampaignLeadGen>false</a12:ZCampaignLeadGen>
+					<a12:ZNewsAlerts>false</a12:ZNewsAlerts>
+					<a12:ZSurveys>false</a12:ZSurveys>
+					<a12:ZNewsletter>false</a12:ZNewsletter>
+					<a12:ZEventsOnlineEvents>false</a12:ZEventsOnlineEvents>
+					<a12:ZTechnicalBusinessUpdates>false
+					</a12:ZTechnicalBusinessUpdates>
+					<a12:ZPEUser></a12:ZPEUser>
+					<a12:ZContactActivationStatus>Active</a12:ZContactActivationStatus>
+					<a12:SSOApprovalStatus>111</a12:SSOApprovalStatus>
+					<a12:ZSSOApprovalStatus>111</a12:ZSSOApprovalStatus>
+					<a12:ZBusinessLastModifiedDate>2018-03-20T00:00:00Z
+					</a12:ZBusinessLastModifiedDate>
+					<a12:ZContactActivationStatus>Active</a12:ZContactActivationStatus>
+					<a12:SSOApprovalStatus>111</a12:SSOApprovalStatus>
+					<a12:ZSSOApprovalStatus>111</a12:ZSSOApprovalStatus>
+					<a12:ZBusinessChangeDate>2018-03-20T07:08:00Z
+					</a12:ZBusinessChangeDate>
+					<a12:ZBusinessChangeDTStamp>20180320070800.000000
+					</a12:ZBusinessChangeDTStamp>
+					<a12:ZCreatorSourceSystem>C4C_UserREG</a12:ZCreatorSourceSystem>
+					<a12:ZUpdatedbySourceSystem>C4C_UserREG
+					</a12:ZUpdatedbySourceSystem>
+					<a12:ZBusinessCreateDate>2018-03-20T07:08:00Z
+					</a12:ZBusinessCreateDate>
+					<a12:ZIntegrationRequired>true</a12:ZIntegrationRequired>
+				</ContactPerson>
+			</ChannelPartner>
+		</glob:ChannelPartnerBundleMaintainRequest_sync_V1>
+	</soapenv:Body>
+</soapenv:Envelope>
+
+success in check / maintain channel partner:
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:glob="http://sap.com/xi/SAPGlobal20/Global" xmlns:a12="http://sap.com/xi/AP/CustomerExtension/BYD/A126Q"
+	xmlns:yil="http://0001228888-one-off.sap.com/YILB8I58Y_">
+	<soapenv:Header />
+	<soapenv:Body>
+		<glob:ChannelPartnerBundleMaintainRequest_sync_V1>
+			<ChannelPartner actionCode="02">
+				<InternalID>6053303</InternalID>
+				<ContactPerson actionCode="01"
+					workplaceTelephoneListCompleteTransmissionIndicator="true">
+					<GivenName>FirstAscend</GivenName>
+					<FamilyName>LastAscend</FamilyName>
+					<a12:ZUserName>TestFailAscend01</a12:ZUserName>
+					<a12:ZUserID>TestFailAscend01</a12:ZUserID>
+					<a12:ZJobRole>241</a12:ZJobRole>
+					<a12:ZBusinessFunction>121</a12:ZBusinessFunction>
+					<a12:ZLanguagePreference>EN</a12:ZLanguagePreference>
+					<a12:ZTitle>sr</a12:ZTitle>
+					<WorkplaceEmailURI>test7777@ntta.com</WorkplaceEmailURI>
+					<WorkplaceTelephone>
+						<FormattedNumberDescription>7045671345
+						</FormattedNumberDescription>
+						<MobilePhoneNumberIndicator>false</MobilePhoneNumberIndicator>
+					</WorkplaceTelephone>
+					<OrgBusinessAddressInformation>
+						<StreetName>757 3rd Ave</StreetName>
+						<StreetPrefix>Fl 14</StreetPrefix>
+						<AdditionalStreetPrefix></AdditionalStreetPrefix>
+						<CountryCode>US</CountryCode>
+						<RegionCode>NY</RegionCode>
+						<CityName>New York</CityName>
+						<StreetPostalCode>10017</StreetPostalCode>
+					</OrgBusinessAddressInformation>
+					<a12:ZSaleOfficeID_KUT>17894227</a12:ZSaleOfficeID_KUT>
+					<yil:ZSalesOffice_EMPID>17894227</yil:ZSalesOffice_EMPID>
+					<yil:ZSalesOffice_EMP>17894227</yil:ZSalesOffice_EMP>
+					<a12:ZPrimarySiteAccountID>17894227</a12:ZPrimarySiteAccountID>
+					<a12:ZAddressCMATID_salesoffice>17894227
+					</a12:ZAddressCMATID_salesoffice>
+					<a12:ZAddressCMATID>17894227</a12:ZAddressCMATID>
+					<a12:Z_CMAT_ID>6053303</a12:Z_CMAT_ID>
+					<yil:Z_CMAT_ID_SDK>6053303</yil:Z_CMAT_ID_SDK>
+					<a12:ZEmail_KUT>test7777@ntta.com</a12:ZEmail_KUT>
+					<a12:ZCampaignLeadGen>false</a12:ZCampaignLeadGen>
+					<a12:ZNewsAlerts>false</a12:ZNewsAlerts>
+					<a12:ZSurveys>false</a12:ZSurveys>
+					<a12:ZNewsletter>false</a12:ZNewsletter>
+					<a12:ZEventsOnlineEvents>false</a12:ZEventsOnlineEvents>
+					<a12:ZTechnicalBusinessUpdates>false
+					</a12:ZTechnicalBusinessUpdates>
+					<a12:ZPEUser></a12:ZPEUser>
+					<a12:ZContactActivationStatus>Active</a12:ZContactActivationStatus>
+					<a12:SSOApprovalStatus>111</a12:SSOApprovalStatus>
+					<a12:ZSSOApprovalStatus>111</a12:ZSSOApprovalStatus>
+					<a12:ZBusinessLastModifiedDate>2018-03-20T00:00:00Z
+					</a12:ZBusinessLastModifiedDate>
+					<a12:ZContactActivationStatus>Active</a12:ZContactActivationStatus>
+					<a12:SSOApprovalStatus>111</a12:SSOApprovalStatus>
+					<a12:ZSSOApprovalStatus>111</a12:ZSSOApprovalStatus>
+					<a12:ZBusinessChangeDate>2018-03-20T07:33:00Z
+					</a12:ZBusinessChangeDate>
+					<a12:ZBusinessChangeDTStamp>20180320073300.000000
+					</a12:ZBusinessChangeDTStamp>
+					<a12:ZCreatorSourceSystem>C4C_UserREG</a12:ZCreatorSourceSystem>
+					<a12:ZUpdatedbySourceSystem>C4C_UserREG
+					</a12:ZUpdatedbySourceSystem>
+					<a12:ZBusinessCreateDate>2018-03-20T07:33:00Z
+					</a12:ZBusinessCreateDate>
+					<a12:ZIntegrationRequired>true</a12:ZIntegrationRequired>
+				</ContactPerson>
+			</ChannelPartner>
+		</glob:ChannelPartnerBundleMaintainRequest_sync_V1>
+	</soapenv:Body>
+</soapenv:Envelope>
+
+
+
+
+
+success in check / maintain channel partner:
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:glob="http://sap.com/xi/SAPGlobal20/Global" xmlns:a12="http://sap.com/xi/AP/CustomerExtension/BYD/A126Q"
+	xmlns:yil="http://0001228888-one-off.sap.com/YILB8I58Y_">
+	<soapenv:Header />
+	<soapenv:Body>
+		<glob:ChannelPartnerBundleMaintainRequest_sync_V1>
+			<ChannelPartner actionCode="02">
+				<InternalID>6053303</InternalID>
+				<ContactPerson actionCode="01"
+					workplaceTelephoneListCompleteTransmissionIndicator="true">
+					<GivenName>TestFirst09</GivenName>
+					<FamilyName>TestLast08</FamilyName>
+					<a12:ZUserName>TestFirst06</a12:ZUserName>
+					<a12:ZUserID>TestFirst06</a12:ZUserID>
+					<a12:ZJobRole>251</a12:ZJobRole>
+					<a12:ZBusinessFunction>131</a12:ZBusinessFunction>
+					<a12:ZLanguagePreference>EN</a12:ZLanguagePreference>
+					<a12:ZTitle>sr</a12:ZTitle>
+					<WorkplaceEmailURI>test8888@ntta.com</WorkplaceEmailURI>
+					<WorkplaceTelephone>
+						<FormattedNumberDescription>7045674532
+						</FormattedNumberDescription>
+						<MobilePhoneNumberIndicator>false</MobilePhoneNumberIndicator>
+					</WorkplaceTelephone>
+					<OrgBusinessAddressInformation>
+						<StreetName>757 3rd Ave</StreetName>
+						<StreetPrefix>Fl 14</StreetPrefix>
+						<AdditionalStreetPrefix></AdditionalStreetPrefix>
+						<CountryCode>US</CountryCode>
+						<RegionCode>NY</RegionCode>
+						<CityName>New York</CityName>
+						<StreetPostalCode>10017</StreetPostalCode>
+					</OrgBusinessAddressInformation>
+					<a12:ZSaleOfficeID_KUT>17894227</a12:ZSaleOfficeID_KUT>
+					<yil:ZSalesOffice_EMPID>17894227</yil:ZSalesOffice_EMPID>
+					<yil:ZSalesOffice_EMP>17894227</yil:ZSalesOffice_EMP>
+					<a12:ZPrimarySiteAccountID>17894227</a12:ZPrimarySiteAccountID>
+					<a12:ZAddressCMATID_salesoffice>17894227
+					</a12:ZAddressCMATID_salesoffice>
+					<a12:ZAddressCMATID>17894227</a12:ZAddressCMATID>
+					<a12:Z_CMAT_ID>6053303</a12:Z_CMAT_ID>
+					<yil:Z_CMAT_ID_SDK>6053303</yil:Z_CMAT_ID_SDK>
+					<a12:OtherJobRole>'Corporate Marketing','Cloud Specialist'
+					</a12:OtherJobRole>
+					<a12:AreaofInterest1>'HCI','OCI'</a12:AreaofInterest1>
+					<a12:ZEmail_KUT>test8888@ntta.com</a12:ZEmail_KUT>
+					<a12:ZCampaignLeadGen>false</a12:ZCampaignLeadGen>
+					<a12:ZNewsAlerts>false</a12:ZNewsAlerts>
+					<a12:ZSurveys>false</a12:ZSurveys>
+					<a12:ZNewsletter>false</a12:ZNewsletter>
+					<a12:ZEventsOnlineEvents>false</a12:ZEventsOnlineEvents>
+					<a12:ZTechnicalBusinessUpdates>false
+					</a12:ZTechnicalBusinessUpdates>
+					<a12:ZPEUser>101</a12:ZPEUser>
+					<a12:ZContactActivationStatus>Active</a12:ZContactActivationStatus>
+					<a12:SSOApprovalStatus>111</a12:SSOApprovalStatus>
+					<a12:ZSSOApprovalStatus>111</a12:ZSSOApprovalStatus>
+					<a12:ZBusinessLastModifiedDate>2018-03-20T00:00:00Z
+					</a12:ZBusinessLastModifiedDate>
+					<a12:ZContactActivationStatus>Active</a12:ZContactActivationStatus>
+					<a12:SSOApprovalStatus>111</a12:SSOApprovalStatus>
+					<a12:ZSSOApprovalStatus>111</a12:ZSSOApprovalStatus>
+					<a12:ZBusinessChangeDate>2018-03-20T08:17:00Z
+					</a12:ZBusinessChangeDate>
+					<a12:ZBusinessChangeDTStamp>20180320081700.000000
+					</a12:ZBusinessChangeDTStamp>
+					<a12:ZCreatorSourceSystem>C4C_UserREG</a12:ZCreatorSourceSystem>
+					<a12:ZUpdatedbySourceSystem>C4C_UserREG
+					</a12:ZUpdatedbySourceSystem>
+					<a12:ZBusinessCreateDate>2018-03-20T08:17:00Z
+					</a12:ZBusinessCreateDate>
+					<a12:ZIntegrationRequired>true</a12:ZIntegrationRequired>
+				</ContactPerson>
+			</ChannelPartner>
+		</glob:ChannelPartnerBundleMaintainRequest_sync_V1>
+	</soapenv:Body>
+</soapenv:Envelope>
+
+
+
+
+success in check / maintain channel partner:
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:glob="http://sap.com/xi/SAPGlobal20/Global" xmlns:a12="http://sap.com/xi/AP/CustomerExtension/BYD/A126Q"
+	xmlns:yil="http://0001228888-one-off.sap.com/YILB8I58Y_">
+	<soapenv:Header />
+	<soapenv:Body>
+		<glob:ChannelPartnerBundleMaintainRequest_sync_V1>
+			<ChannelPartner actionCode="02">
+				<InternalID>6053303</InternalID>
+				<ContactPerson actionCode="01"
+					workplaceTelephoneListCompleteTransmissionIndicator="true">
+					<GivenName>TestAscendSample</GivenName>
+					<FamilyName>TestLastSample</FamilyName>
+					<a12:ZUserName>Testme123</a12:ZUserName>
+					<a12:ZUserID>Testme123</a12:ZUserID>
+					<a12:ZJobRole>281</a12:ZJobRole>
+					<a12:ZBusinessFunction>141</a12:ZBusinessFunction>
+					<a12:ZLanguagePreference>EN</a12:ZLanguagePreference>
+					<a12:ZTitle>Sr</a12:ZTitle>
+					<WorkplaceEmailURI>test9999@ntta.com</WorkplaceEmailURI>
+					<WorkplaceTelephone>
+						<FormattedNumberDescription>7045673245
+						</FormattedNumberDescription>
+						<MobilePhoneNumberIndicator>false</MobilePhoneNumberIndicator>
+					</WorkplaceTelephone>
+					<OrgBusinessAddressInformation>
+						<StreetName>757 3rd Ave</StreetName>
+						<StreetPrefix>Fl 14</StreetPrefix>
+						<AdditionalStreetPrefix></AdditionalStreetPrefix>
+						<CountryCode>US</CountryCode>
+						<RegionCode>NY</RegionCode>
+						<CityName>New York</CityName>
+						<StreetPostalCode>10017</StreetPostalCode>
+					</OrgBusinessAddressInformation>
+					<a12:ZSaleOfficeID_KUT>17894227</a12:ZSaleOfficeID_KUT>
+					<yil:ZSalesOffice_EMPID>17894227</yil:ZSalesOffice_EMPID>
+					<yil:ZSalesOffice_EMP>17894227</yil:ZSalesOffice_EMP>
+					<a12:ZPrimarySiteAccountID>17894227</a12:ZPrimarySiteAccountID>
+					<a12:ZAddressCMATID_salesoffice>17894227
+					</a12:ZAddressCMATID_salesoffice>
+					<a12:ZAddressCMATID>17894227</a12:ZAddressCMATID>
+					<a12:Z_CMAT_ID>6053303</a12:Z_CMAT_ID>
+					<yil:Z_CMAT_ID_SDK>6053303</yil:Z_CMAT_ID_SDK>
+					<a12:OtherJobRole>'Cloud Specialist','Solutions Architect'
+					</a12:OtherJobRole>
+					<a12:AreaofInterest1>'SolidFire','HCI'</a12:AreaofInterest1>
+					<a12:ZEmail_KUT>test9999@ntta.com</a12:ZEmail_KUT>
+					<a12:ZCampaignLeadGen>false</a12:ZCampaignLeadGen>
+					<a12:ZNewsAlerts>false</a12:ZNewsAlerts>
+					<a12:ZSurveys>false</a12:ZSurveys>
+					<a12:ZNewsletter>false</a12:ZNewsletter>
+					<a12:ZEventsOnlineEvents>false</a12:ZEventsOnlineEvents>
+					<a12:ZTechnicalBusinessUpdates>false
+					</a12:ZTechnicalBusinessUpdates>
+					<a12:ZPEUser></a12:ZPEUser>
+					<a12:ZContactActivationStatus>Active</a12:ZContactActivationStatus>
+					<a12:SSOApprovalStatus>111</a12:SSOApprovalStatus>
+					<a12:ZSSOApprovalStatus>111</a12:ZSSOApprovalStatus>
+					<a12:ZBusinessLastModifiedDate>2018-03-20T00:00:00Z
+					</a12:ZBusinessLastModifiedDate>
+					<a12:ZContactActivationStatus>Active</a12:ZContactActivationStatus>
+					<a12:SSOApprovalStatus>111</a12:SSOApprovalStatus>
+					<a12:ZSSOApprovalStatus>111</a12:ZSSOApprovalStatus>
+					<a12:ZBusinessChangeDate>2018-03-20T09:15:00Z
+					</a12:ZBusinessChangeDate>
+					<a12:ZBusinessChangeDTStamp>20180320091500.000000
+					</a12:ZBusinessChangeDTStamp>
+					<a12:ZCreatorSourceSystem>C4C_UserREG</a12:ZCreatorSourceSystem>
+					<a12:ZUpdatedbySourceSystem>C4C_UserREG
+					</a12:ZUpdatedbySourceSystem>
+					<a12:ZBusinessCreateDate>2018-03-20T09:15:00Z
+					</a12:ZBusinessCreateDate>
+					<a12:ZIntegrationRequired>true</a12:ZIntegrationRequired>
+				</ContactPerson>
+			</ChannelPartner>
+		</glob:ChannelPartnerBundleMaintainRequest_sync_V1>
+	</soapenv:Body>
+</soapenv:Envelope>
+
+success in check / maintain channel partner:
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:glob="http://sap.com/xi/SAPGlobal20/Global" xmlns:a12="http://sap.com/xi/AP/CustomerExtension/BYD/A126Q"
+	xmlns:yil="http://0001228888-one-off.sap.com/YILB8I58Y_">
+	<soapenv:Header />
+	<soapenv:Body>
+		<glob:ChannelPartnerBundleMaintainRequest_sync_V1>
+			<ChannelPartner actionCode="02">
+				<InternalID>6053303</InternalID>
+				<ContactPerson actionCode="01"
+					workplaceTelephoneListCompleteTransmissionIndicator="true">
+					<GivenName>TestFirstSAmple</GivenName>
+					<FamilyName>TestLastSample</FamilyName>
+					<a12:ZUserName>TestWithCode01</a12:ZUserName>
+					<a12:ZUserID>TestWithCode01</a12:ZUserID>
+					<a12:ZJobRole>301</a12:ZJobRole>
+					<a12:ZBusinessFunction>151</a12:ZBusinessFunction>
+					<a12:ZLanguagePreference>EN</a12:ZLanguagePreference>
+					<a12:ZTitle>sr</a12:ZTitle>
+					<WorkplaceEmailURI>test4767@ntta.com</WorkplaceEmailURI>
+					<WorkplaceTelephone>
+						<FormattedNumberDescription>7945674325
+						</FormattedNumberDescription>
+						<MobilePhoneNumberIndicator>false</MobilePhoneNumberIndicator>
+					</WorkplaceTelephone>
+					<OrgBusinessAddressInformation>
+						<StreetName>757 3rd Ave</StreetName>
+						<StreetPrefix>Fl 14</StreetPrefix>
+						<AdditionalStreetPrefix></AdditionalStreetPrefix>
+						<CountryCode>US</CountryCode>
+						<RegionCode>NY</RegionCode>
+						<CityName>New York</CityName>
+						<StreetPostalCode>10017</StreetPostalCode>
+					</OrgBusinessAddressInformation>
+					<a12:ZSaleOfficeID_KUT>17894227</a12:ZSaleOfficeID_KUT>
+					<yil:ZSalesOffice_EMPID>17894227</yil:ZSalesOffice_EMPID>
+					<yil:ZSalesOffice_EMP>17894227</yil:ZSalesOffice_EMP>
+					<a12:ZPrimarySiteAccountID>17894227</a12:ZPrimarySiteAccountID>
+					<a12:ZAddressCMATID_salesoffice>17894227
+					</a12:ZAddressCMATID_salesoffice>
+					<a12:ZAddressCMATID>17894227</a12:ZAddressCMATID>
+					<a12:Z_CMAT_ID>6053303</a12:Z_CMAT_ID>
+					<yil:Z_CMAT_ID_SDK>6053303</yil:Z_CMAT_ID_SDK>
+					<a12:OtherJobRole>'COO'</a12:OtherJobRole>
+					<a12:AreaofInterest1>'HCI'</a12:AreaofInterest1>
+					<a12:ZEmail_KUT>test4767@ntta.com</a12:ZEmail_KUT>
+					<a12:ZCampaignLeadGen>false</a12:ZCampaignLeadGen>
+					<a12:ZNewsAlerts>false</a12:ZNewsAlerts>
+					<a12:ZSurveys>false</a12:ZSurveys>
+					<a12:ZNewsletter>false</a12:ZNewsletter>
+					<a12:ZEventsOnlineEvents>false</a12:ZEventsOnlineEvents>
+					<a12:ZTechnicalBusinessUpdates>false
+					</a12:ZTechnicalBusinessUpdates>
+					<a12:ZPEUser>101</a12:ZPEUser>
+					<a12:ZContactActivationStatus>Active</a12:ZContactActivationStatus>
+					<a12:SSOApprovalStatus>111</a12:SSOApprovalStatus>
+					<a12:ZSSOApprovalStatus>111</a12:ZSSOApprovalStatus>
+					<a12:ZBusinessLastModifiedDate>2018-03-20T00:00:00Z
+					</a12:ZBusinessLastModifiedDate>
+					<a12:ZContactActivationStatus>Active</a12:ZContactActivationStatus>
+					<a12:SSOApprovalStatus>111</a12:SSOApprovalStatus>
+					<a12:ZSSOApprovalStatus>111</a12:ZSSOApprovalStatus>
+					<a12:ZBusinessChangeDate>2018-03-20T10:14:00Z
+					</a12:ZBusinessChangeDate>
+					<a12:ZBusinessChangeDTStamp>20180320101400.000000
+					</a12:ZBusinessChangeDTStamp>
+					<a12:ZCreatorSourceSystem>C4C_UserREG</a12:ZCreatorSourceSystem>
+					<a12:ZUpdatedbySourceSystem>C4C_UserREG
+					</a12:ZUpdatedbySourceSystem>
+					<a12:ZBusinessCreateDate>2018-03-20T10:14:00Z
+					</a12:ZBusinessCreateDate>
+					<a12:ZIntegrationRequired>true</a12:ZIntegrationRequired>
+				</ContactPerson>
+			</ChannelPartner>
+		</glob:ChannelPartnerBundleMaintainRequest_sync_V1>
+	</soapenv:Body>
+</soapenv:Envelope>
+
+
+success in check / maintain channel partner:
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:glob="http://sap.com/xi/SAPGlobal20/Global" xmlns:a12="http://sap.com/xi/AP/CustomerExtension/BYD/A126Q"
+	xmlns:yil="http://0001228888-one-off.sap.com/YILB8I58Y_">
+	<soapenv:Header />
+	<soapenv:Body>
+		<glob:ChannelPartnerBundleMaintainRequest_sync_V1>
+			<ChannelPartner actionCode="02">
+				<InternalID>6053303</InternalID>
+				<ContactPerson actionCode="01"
+					workplaceTelephoneListCompleteTransmissionIndicator="true">
+					<GivenName>SampleTestone</GivenName>
+					<FamilyName>SampleTestLastname</FamilyName>
+					<a12:ZUserName>SampleTest09</a12:ZUserName>
+					<a12:ZUserID>SampleTest09</a12:ZUserID>
+					<a12:ZJobRole>231</a12:ZJobRole>
+					<a12:ZBusinessFunction>121</a12:ZBusinessFunction>
+					<a12:ZLanguagePreference>EN</a12:ZLanguagePreference>
+					<a12:ZTitle>sr</a12:ZTitle>
+					<WorkplaceEmailURI>test5555@ntta.com</WorkplaceEmailURI>
+					<WorkplaceTelephone>
+						<FormattedNumberDescription>7045647564
+						</FormattedNumberDescription>
+						<MobilePhoneNumberIndicator>false</MobilePhoneNumberIndicator>
+					</WorkplaceTelephone>
+					<OrgBusinessAddressInformation>
+						<StreetName>757 3rd Ave</StreetName>
+						<StreetPrefix>Fl 14</StreetPrefix>
+						<AdditionalStreetPrefix></AdditionalStreetPrefix>
+						<CountryCode>US</CountryCode>
+						<RegionCode>NY</RegionCode>
+						<CityName>New York</CityName>
+						<StreetPostalCode>10017</StreetPostalCode>
+					</OrgBusinessAddressInformation>
+					<a12:ZSaleOfficeID_KUT>17894227</a12:ZSaleOfficeID_KUT>
+					<yil:ZSalesOffice_EMPID>17894227</yil:ZSalesOffice_EMPID>
+					<yil:ZSalesOffice_EMP>17894227</yil:ZSalesOffice_EMP>
+					<a12:ZPrimarySiteAccountID>17894227</a12:ZPrimarySiteAccountID>
+					<a12:ZAddressCMATID_salesoffice>17894227
+					</a12:ZAddressCMATID_salesoffice>
+					<a12:ZAddressCMATID>17894227</a12:ZAddressCMATID>
+					<a12:Z_CMAT_ID>6053303</a12:Z_CMAT_ID>
+					<yil:Z_CMAT_ID_SDK>6053303</yil:Z_CMAT_ID_SDK>
+					<a12:OtherJobRole>111,121,131</a12:OtherJobRole>
+					<a12:AreaofInterest1>101,111</a12:AreaofInterest1>
+					<a12:ZEmail_KUT>test5555@ntta.com</a12:ZEmail_KUT>
+					<a12:ZCampaignLeadGen>false</a12:ZCampaignLeadGen>
+					<a12:ZNewsAlerts>false</a12:ZNewsAlerts>
+					<a12:ZSurveys>false</a12:ZSurveys>
+					<a12:ZNewsletter>false</a12:ZNewsletter>
+					<a12:ZEventsOnlineEvents>false</a12:ZEventsOnlineEvents>
+					<a12:ZTechnicalBusinessUpdates>false
+					</a12:ZTechnicalBusinessUpdates>
+					<a12:ZPEUser>101</a12:ZPEUser>
+					<a12:ZContactActivationStatus>Active</a12:ZContactActivationStatus>
+					<a12:SSOApprovalStatus>111</a12:SSOApprovalStatus>
+					<a12:ZSSOApprovalStatus>111</a12:ZSSOApprovalStatus>
+					<a12:ZBusinessLastModifiedDate>2018-03-20T00:00:00Z
+					</a12:ZBusinessLastModifiedDate>
+					<a12:ZContactActivationStatus>Active</a12:ZContactActivationStatus>
+					<a12:SSOApprovalStatus>111</a12:SSOApprovalStatus>
+					<a12:ZSSOApprovalStatus>111</a12:ZSSOApprovalStatus>
+					<a12:ZBusinessChangeDate>2018-03-20T10:18:00Z
+					</a12:ZBusinessChangeDate>
+					<a12:ZBusinessChangeDTStamp>20180320101800.000000
+					</a12:ZBusinessChangeDTStamp>
+					<a12:ZCreatorSourceSystem>C4C_UserREG</a12:ZCreatorSourceSystem>
+					<a12:ZUpdatedbySourceSystem>C4C_UserREG
+					</a12:ZUpdatedbySourceSystem>
+					<a12:ZBusinessCreateDate>2018-03-20T10:18:00Z
+					</a12:ZBusinessCreateDate>
+					<a12:ZIntegrationRequired>true</a12:ZIntegrationRequired>
+				</ContactPerson>
+			</ChannelPartner>
+		</glob:ChannelPartnerBundleMaintainRequest_sync_V1>
+	</soapenv:Body>
+</soapenv:Envelope>
+
+
+success in check / maintain channel partner:
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:glob="http://sap.com/xi/SAPGlobal20/Global" xmlns:a12="http://sap.com/xi/AP/CustomerExtension/BYD/A126Q"
+	xmlns:yil="http://0001228888-one-off.sap.com/YILB8I58Y_">
+	<soapenv:Header />
+	<soapenv:Body>
+		<glob:ChannelPartnerBundleMaintainRequest_sync_V1>
+			<ChannelPartner actionCode="02">
+				<InternalID>6053303</InternalID>
+				<ContactPerson actionCode="01"
+					workplaceTelephoneListCompleteTransmissionIndicator="true">
+					<GivenName>TestFirstSample</GivenName>
+					<FamilyName>TestSecondLast</FamilyName>
+					<a12:ZUserName>TestFirst08</a12:ZUserName>
+					<a12:ZUserID>TestFirst08</a12:ZUserID>
+					<a12:ZJobRole>351</a12:ZJobRole>
+					<a12:ZBusinessFunction>141</a12:ZBusinessFunction>
+					<a12:ZLanguagePreference>EN</a12:ZLanguagePreference>
+					<a12:ZTitle>sr</a12:ZTitle>
+					<WorkplaceEmailURI>test5656@ntta.com</WorkplaceEmailURI>
+					<WorkplaceTelephone>
+						<FormattedNumberDescription>7045677654
+						</FormattedNumberDescription>
+						<MobilePhoneNumberIndicator>false</MobilePhoneNumberIndicator>
+					</WorkplaceTelephone>
+					<OrgBusinessAddressInformation>
+						<StreetName>757 3rd Ave</StreetName>
+						<StreetPrefix>Fl 14</StreetPrefix>
+						<AdditionalStreetPrefix></AdditionalStreetPrefix>
+						<CountryCode>US</CountryCode>
+						<RegionCode>NY</RegionCode>
+						<CityName>New York</CityName>
+						<StreetPostalCode>10017</StreetPostalCode>
+					</OrgBusinessAddressInformation>
+					<a12:ZSaleOfficeID_KUT>17894227</a12:ZSaleOfficeID_KUT>
+					<yil:ZSalesOffice_EMPID>17894227</yil:ZSalesOffice_EMPID>
+					<yil:ZSalesOffice_EMP>17894227</yil:ZSalesOffice_EMP>
+					<a12:ZPrimarySiteAccountID>17894227</a12:ZPrimarySiteAccountID>
+					<a12:ZAddressCMATID_salesoffice>17894227
+					</a12:ZAddressCMATID_salesoffice>
+					<a12:ZAddressCMATID>17894227</a12:ZAddressCMATID>
+					<a12:Z_CMAT_ID>6053303</a12:Z_CMAT_ID>
+					<yil:Z_CMAT_ID_SDK>6053303</yil:Z_CMAT_ID_SDK>
+					<a12:OtherJobRole>111,121,131</a12:OtherJobRole>
+					<a12:AreaofInterest1>101,111</a12:AreaofInterest1>
+					<a12:ZEmail_KUT>test5656@ntta.com</a12:ZEmail_KUT>
+					<a12:ZCampaignLeadGen>false</a12:ZCampaignLeadGen>
+					<a12:ZNewsAlerts>false</a12:ZNewsAlerts>
+					<a12:ZSurveys>false</a12:ZSurveys>
+					<a12:ZNewsletter>false</a12:ZNewsletter>
+					<a12:ZEventsOnlineEvents>false</a12:ZEventsOnlineEvents>
+					<a12:ZTechnicalBusinessUpdates>false
+					</a12:ZTechnicalBusinessUpdates>
+					<a12:ZPEUser>101</a12:ZPEUser>
+					<a12:ZContactActivationStatus>Active</a12:ZContactActivationStatus>
+					<a12:SSOApprovalStatus>111</a12:SSOApprovalStatus>
+					<a12:ZSSOApprovalStatus>111</a12:ZSSOApprovalStatus>
+					<a12:ZBusinessLastModifiedDate>2018-03-20T00:00:00Z
+					</a12:ZBusinessLastModifiedDate>
+					<a12:ZContactActivationStatus>Active</a12:ZContactActivationStatus>
+					<a12:SSOApprovalStatus>111</a12:SSOApprovalStatus>
+					<a12:ZSSOApprovalStatus>111</a12:ZSSOApprovalStatus>
+					<a12:ZBusinessChangeDate>2018-03-20T10:36:00Z
+					</a12:ZBusinessChangeDate>
+					<a12:ZBusinessChangeDTStamp>20180320103600.000000
+					</a12:ZBusinessChangeDTStamp>
+					<a12:ZCreatorSourceSystem>C4C_UserREG</a12:ZCreatorSourceSystem>
+					<a12:ZUpdatedbySourceSystem>C4C_UserREG
+					</a12:ZUpdatedbySourceSystem>
+					<a12:ZBusinessCreateDate>2018-03-20T10:36:00Z
+					</a12:ZBusinessCreateDate>
+					<a12:ZIntegrationRequired>true</a12:ZIntegrationRequired>
+				</ContactPerson>
+			</ChannelPartner>
+		</glob:ChannelPartnerBundleMaintainRequest_sync_V1>
+	</soapenv:Body>
+</soapenv:Envelope>
+
+success in check / maintain channel partner:
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:glob="http://sap.com/xi/SAPGlobal20/Global" xmlns:a12="http://sap.com/xi/AP/CustomerExtension/BYD/A126Q"
+	xmlns:yil="http://0001228888-one-off.sap.com/YILB8I58Y_">
+	<soapenv:Header />
+	<soapenv:Body>
+		<glob:ChannelPartnerBundleMaintainRequest_sync_V1>
+			<ChannelPartner actionCode="02">
+				<InternalID>6053303</InternalID>
+				<ContactPerson actionCode="01"
+					workplaceTelephoneListCompleteTransmissionIndicator="true">
+					<GivenName>TestFirstname</GivenName>
+					<FamilyName>TestLastname</FamilyName>
+					<a12:ZUserName>TestFirst10</a12:ZUserName>
+					<a12:ZUserID>TestFirst10</a12:ZUserID>
+					<a12:ZJobRole>281</a12:ZJobRole>
+					<a12:ZBusinessFunction>141</a12:ZBusinessFunction>
+					<a12:ZLanguagePreference>EN</a12:ZLanguagePreference>
+					<a12:ZTitle>sr</a12:ZTitle>
+					<WorkplaceEmailURI>test5511@ntta.com</WorkplaceEmailURI>
+					<WorkplaceTelephone>
+						<FormattedNumberDescription>7045644321
+						</FormattedNumberDescription>
+						<MobilePhoneNumberIndicator>false</MobilePhoneNumberIndicator>
+					</WorkplaceTelephone>
+					<OrgBusinessAddressInformation>
+						<StreetName>757 3rd Ave</StreetName>
+						<StreetPrefix>Fl 14</StreetPrefix>
+						<AdditionalStreetPrefix></AdditionalStreetPrefix>
+						<CountryCode>US</CountryCode>
+						<RegionCode>NY</RegionCode>
+						<CityName>New York</CityName>
+						<StreetPostalCode>10017</StreetPostalCode>
+					</OrgBusinessAddressInformation>
+					<a12:ZSaleOfficeID_KUT>17894227</a12:ZSaleOfficeID_KUT>
+					<yil:ZSalesOffice_EMPID>17894227</yil:ZSalesOffice_EMPID>
+					<yil:ZSalesOffice_EMP>17894227</yil:ZSalesOffice_EMP>
+					<a12:ZPrimarySiteAccountID>17894227</a12:ZPrimarySiteAccountID>
+					<a12:ZAddressCMATID_salesoffice>17894227
+					</a12:ZAddressCMATID_salesoffice>
+					<a12:ZAddressCMATID>17894227</a12:ZAddressCMATID>
+					<a12:Z_CMAT_ID>6053303</a12:Z_CMAT_ID>
+					<yil:Z_CMAT_ID_SDK>6053303</yil:Z_CMAT_ID_SDK>
+					<a12:OtherJobRole>111,121,131</a12:OtherJobRole>
+					<a12:AreaofInterest>101,111</a12:AreaofInterest>
+					<a12:ZEmail_KUT>test5511@ntta.com</a12:ZEmail_KUT>
+					<a12:ZCampaignLeadGen>false</a12:ZCampaignLeadGen>
+					<a12:ZNewsAlerts>false</a12:ZNewsAlerts>
+					<a12:ZSurveys>false</a12:ZSurveys>
+					<a12:ZNewsletter>false</a12:ZNewsletter>
+					<a12:ZEventsOnlineEvents>false</a12:ZEventsOnlineEvents>
+					<a12:ZTechnicalBusinessUpdates>false
+					</a12:ZTechnicalBusinessUpdates>
+					<a12:ZPEUser>101</a12:ZPEUser>
+					<a12:ZContactActivationStatus>Active</a12:ZContactActivationStatus>
+					<a12:SSOApprovalStatus>111</a12:SSOApprovalStatus>
+					<a12:ZSSOApprovalStatus>111</a12:ZSSOApprovalStatus>
+					<a12:ZBusinessLastModifiedDate>2018-03-20T00:00:00Z
+					</a12:ZBusinessLastModifiedDate>
+					<a12:ZContactActivationStatus>Active</a12:ZContactActivationStatus>
+					<a12:SSOApprovalStatus>111</a12:SSOApprovalStatus>
+					<a12:ZSSOApprovalStatus>111</a12:ZSSOApprovalStatus>
+					<a12:ZBusinessChangeDate>2018-03-20T10:43:00Z
+					</a12:ZBusinessChangeDate>
+					<a12:ZBusinessChangeDTStamp>20180320104300.000000
+					</a12:ZBusinessChangeDTStamp>
+					<a12:ZCreatorSourceSystem>C4C_UserREG</a12:ZCreatorSourceSystem>
+					<a12:ZUpdatedbySourceSystem>C4C_UserREG
+					</a12:ZUpdatedbySourceSystem>
+					<a12:ZBusinessCreateDate>2018-03-20T10:43:00Z
+					</a12:ZBusinessCreateDate>
+					<a12:ZIntegrationRequired>true</a12:ZIntegrationRequired>
+				</ContactPerson>
+			</ChannelPartner>
+		</glob:ChannelPartnerBundleMaintainRequest_sync_V1>
+	</soapenv:Body>
+</soapenv:Envelope>
+
+
+success in check / maintain channel partner:
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:glob="http://sap.com/xi/SAPGlobal20/Global" xmlns:a12="http://sap.com/xi/AP/CustomerExtension/BYD/A126Q"
+	xmlns:yil="http://0001228888-one-off.sap.com/YILB8I58Y_">
+	<soapenv:Header />
+	<soapenv:Body>
+		<glob:ChannelPartnerBundleMaintainRequest_sync_V1>
+			<ChannelPartner actionCode="02">
+				<InternalID>6053303</InternalID>
+				<ContactPerson actionCode="01"
+					workplaceTelephoneListCompleteTransmissionIndicator="true">
+					<GivenName>TestFirstname</GivenName>
+					<FamilyName>TestLastname</FamilyName>
+					<a12:ZUserName>anandtest01</a12:ZUserName>
+					<a12:ZUserID>anandtest01</a12:ZUserID>
+					<a12:ZJobRole>231</a12:ZJobRole>
+					<a12:ZBusinessFunction>121</a12:ZBusinessFunction>
+					<a12:ZLanguagePreference>EN</a12:ZLanguagePreference>
+					<a12:ZTitle>sr</a12:ZTitle>
+					<WorkplaceEmailURI>testfirst123@ntta.com</WorkplaceEmailURI>
+					<WorkplaceTelephone>
+						<FormattedNumberDescription>7045678765
+						</FormattedNumberDescription>
+						<MobilePhoneNumberIndicator>false</MobilePhoneNumberIndicator>
+					</WorkplaceTelephone>
+					<OrgBusinessAddressInformation>
+						<StreetName>757 3rd Ave</StreetName>
+						<StreetPrefix>Fl 14</StreetPrefix>
+						<AdditionalStreetPrefix></AdditionalStreetPrefix>
+						<CountryCode>US</CountryCode>
+						<RegionCode>NY</RegionCode>
+						<CityName>New York</CityName>
+						<StreetPostalCode>10017</StreetPostalCode>
+					</OrgBusinessAddressInformation>
+					<a12:ZSaleOfficeID_KUT>17894227</a12:ZSaleOfficeID_KUT>
+					<yil:ZSalesOffice_EMPID>17894227</yil:ZSalesOffice_EMPID>
+					<yil:ZSalesOffice_EMP>17894227</yil:ZSalesOffice_EMP>
+					<a12:ZPrimarySiteAccountID>17894227</a12:ZPrimarySiteAccountID>
+					<a12:ZAddressCMATID_salesoffice>17894227
+					</a12:ZAddressCMATID_salesoffice>
+					<a12:ZAddressCMATID>17894227</a12:ZAddressCMATID>
+					<a12:Z_CMAT_ID>6053303</a12:Z_CMAT_ID>
+					<yil:Z_CMAT_ID_SDK>6053303</yil:Z_CMAT_ID_SDK>
+					<a12:OtherJobRole>'111','141','121','131'</a12:OtherJobRole>
+					<a12:AreaofInterest>'101','111'</a12:AreaofInterest>
+					<a12:ZEmail_KUT>testfirst123@ntta.com</a12:ZEmail_KUT>
+					<a12:ZCampaignLeadGen>false</a12:ZCampaignLeadGen>
+					<a12:ZNewsAlerts>false</a12:ZNewsAlerts>
+					<a12:ZSurveys>false</a12:ZSurveys>
+					<a12:ZNewsletter>false</a12:ZNewsletter>
+					<a12:ZEventsOnlineEvents>false</a12:ZEventsOnlineEvents>
+					<a12:ZTechnicalBusinessUpdates>false
+					</a12:ZTechnicalBusinessUpdates>
+					<a12:ZPEUser>101</a12:ZPEUser>
+					<a12:ZContactActivationStatus>Active</a12:ZContactActivationStatus>
+					<a12:SSOApprovalStatus>111</a12:SSOApprovalStatus>
+					<a12:ZSSOApprovalStatus>111</a12:ZSSOApprovalStatus>
+					<a12:ZBusinessLastModifiedDate>2018-03-20T00:00:00Z
+					</a12:ZBusinessLastModifiedDate>
+					<a12:ZContactActivationStatus>Active</a12:ZContactActivationStatus>
+					<a12:SSOApprovalStatus>111</a12:SSOApprovalStatus>
+					<a12:ZSSOApprovalStatus>111</a12:ZSSOApprovalStatus>
+					<a12:ZBusinessChangeDate>2018-03-20T11:33:00Z
+					</a12:ZBusinessChangeDate>
+					<a12:ZBusinessChangeDTStamp>20180320113300.000000
+					</a12:ZBusinessChangeDTStamp>
+					<a12:ZCreatorSourceSystem>C4C_UserREG</a12:ZCreatorSourceSystem>
+					<a12:ZUpdatedbySourceSystem>C4C_UserREG
+					</a12:ZUpdatedbySourceSystem>
+					<a12:ZBusinessCreateDate>2018-03-20T11:33:00Z
+					</a12:ZBusinessCreateDate>
+					<a12:ZIntegrationRequired>true</a12:ZIntegrationRequired>
+				</ContactPerson>
+			</ChannelPartner>
+		</glob:ChannelPartnerBundleMaintainRequest_sync_V1>
+	</soapenv:Body>
+</soapenv:Envelope>
+
+
+success in check / maintain channel partner:
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:glob="http://sap.com/xi/SAPGlobal20/Global" xmlns:a12="http://sap.com/xi/AP/CustomerExtension/BYD/A126Q"
+	xmlns:yil="http://0001228888-one-off.sap.com/YILB8I58Y_">
+	<soapenv:Header />
+	<soapenv:Body>
+		<glob:ChannelPartnerBundleMaintainRequest_sync_V1>
+			<ChannelPartner actionCode="02">
+				<InternalID>6053303</InternalID>
+				<ContactPerson actionCode="01"
+					workplaceTelephoneListCompleteTransmissionIndicator="true">
+					<GivenName>TestFirst</GivenName>
+					<FamilyName>TestLast</FamilyName>
+					<a12:ZUserName>anandtest99</a12:ZUserName>
+					<a12:ZUserID>anandtest99</a12:ZUserID>
+					<a12:ZJobRole>231</a12:ZJobRole>
+					<a12:ZBusinessFunction>121</a12:ZBusinessFunction>
+					<a12:ZTitle>sr</a12:ZTitle>
+					<WorkplaceEmailURI>test8000@ntta.com</WorkplaceEmailURI>
+					<WorkplaceTelephone>
+						<FormattedNumberDescription>7046788976
+						</FormattedNumberDescription>
+						<MobilePhoneNumberIndicator>false</MobilePhoneNumberIndicator>
+					</WorkplaceTelephone>
+					<OrgBusinessAddressInformation>
+						<StreetName>757 3rd Ave</StreetName>
+						<StreetPrefix>Fl 14</StreetPrefix>
+						<AdditionalStreetPrefix></AdditionalStreetPrefix>
+						<CountryCode>US</CountryCode>
+						<RegionCode>NY</RegionCode>
+						<CityName>New York</CityName>
+						<StreetPostalCode>10017</StreetPostalCode>
+					</OrgBusinessAddressInformation>
+					<a12:ZSaleOfficeID_KUT>17894227</a12:ZSaleOfficeID_KUT>
+					<yil:ZSalesOffice_EMPID>17894227</yil:ZSalesOffice_EMPID>
+					<yil:ZSalesOffice_EMP>17894227</yil:ZSalesOffice_EMP>
+					<a12:ZPrimarySiteAccountID>17894227</a12:ZPrimarySiteAccountID>
+					<a12:ZAddressCMATID_salesoffice>17894227
+					</a12:ZAddressCMATID_salesoffice>
+					<a12:ZAddressCMATID>17894227</a12:ZAddressCMATID>
+					<a12:Z_CMAT_ID>6053303</a12:Z_CMAT_ID>
+					<yil:Z_CMAT_ID_SDK>6053303</yil:Z_CMAT_ID_SDK>
+					<a12:OtherJobRole>111,121,131</a12:OtherJobRole>
+					<a12:AreaofInterest>101,111,121</a12:AreaofInterest>
+					<a12:ZEmail_KUT>test8000@ntta.com</a12:ZEmail_KUT>
+					<a12:ZCampaignLeadGen>false</a12:ZCampaignLeadGen>
+					<a12:ZNewsAlerts>false</a12:ZNewsAlerts>
+					<a12:ZSurveys>false</a12:ZSurveys>
+					<a12:ZNewsletter>false</a12:ZNewsletter>
+					<a12:ZEventsOnlineEvents>false</a12:ZEventsOnlineEvents>
+					<a12:ZTechnicalBusinessUpdates>false
+					</a12:ZTechnicalBusinessUpdates>
+					<a12:ZPEUser>101</a12:ZPEUser>
+					<a12:ZContactActivationStatus>Active</a12:ZContactActivationStatus>
+					<a12:SSOApprovalStatus>111</a12:SSOApprovalStatus>
+					<a12:ZSSOApprovalStatus>111</a12:ZSSOApprovalStatus>
+					<a12:ZBusinessLastModifiedDate>2018-03-20T00:00:00Z
+					</a12:ZBusinessLastModifiedDate>
+					<a12:ZContactActivationStatus>Active</a12:ZContactActivationStatus>
+					<a12:SSOApprovalStatus>111</a12:SSOApprovalStatus>
+					<a12:ZSSOApprovalStatus>111</a12:ZSSOApprovalStatus>
+					<a12:ZBusinessChangeDate>2018-03-20T12:13:00Z
+					</a12:ZBusinessChangeDate>
+					<a12:ZBusinessChangeDTStamp>20180320121300.000000
+					</a12:ZBusinessChangeDTStamp>
+					<a12:ZCreatorSourceSystem>C4C_UserREG</a12:ZCreatorSourceSystem>
+					<a12:ZUpdatedbySourceSystem>C4C_UserREG
+					</a12:ZUpdatedbySourceSystem>
+					<a12:ZBusinessCreateDate>2018-03-20T12:13:00Z
+					</a12:ZBusinessCreateDate>
+					<a12:ZIntegrationRequired>true</a12:ZIntegrationRequired>
+				</ContactPerson>
+			</ChannelPartner>
+		</glob:ChannelPartnerBundleMaintainRequest_sync_V1>
+	</soapenv:Body>
+</soapenv:Envelope>
+
+
+<!-- Partner Contact -->
+success in check / maintain channel partner:
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:glob="http://sap.com/xi/SAPGlobal20/Global" xmlns:a12="http://sap.com/xi/AP/CustomerExtension/BYD/A126Q"
+	xmlns:yil="http://0001228888-one-off.sap.com/YILB8I58Y_">
+	<soapenv:Header />
+	<soapenv:Body>
+		<glob:ChannelPartnerBundleMaintainRequest_sync_V1>
+			<ChannelPartner actionCode="02">
+				<InternalID>6053303</InternalID>
+				<ContactPerson actionCode="01"
+					workplaceTelephoneListCompleteTransmissionIndicator="true">
+					<GivenName>First2waybinding</GivenName>
+					<FamilyName>Last2waybinding</FamilyName>
+					<a12:ZUserName>Test2Waybinding01</a12:ZUserName>
+					<a12:ZUserID>Test2Waybinding01</a12:ZUserID>
+					<a12:ZJobRole>231</a12:ZJobRole>
+					<a12:ZBusinessFunction>121</a12:ZBusinessFunction>
+					<a12:ZLanguagePreference>EN</a12:ZLanguagePreference>
+					<a12:ZTitle>sr</a12:ZTitle>
+					<WorkplaceEmailURI>test2waybinding@ntta.com</WorkplaceEmailURI>
+					<WorkplaceTelephone>
+						<FormattedNumberDescription>7045671234
+						</FormattedNumberDescription>
+						<MobilePhoneNumberIndicator>false</MobilePhoneNumberIndicator>
+					</WorkplaceTelephone>
+					<OrgBusinessAddressInformation>
+						<StreetName>757 3rd Ave</StreetName>
+						<StreetPrefix>Fl 14</StreetPrefix>
+						<AdditionalStreetPrefix></AdditionalStreetPrefix>
+						<CountryCode>US</CountryCode>
+						<RegionCode>NY</RegionCode>
+						<CityName>New York</CityName>
+						<StreetPostalCode>10017</StreetPostalCode>
+					</OrgBusinessAddressInformation>
+					<a12:ZSaleOfficeID_KUT>17894227</a12:ZSaleOfficeID_KUT>
+					<yil:ZSalesOffice_EMPID>17894227</yil:ZSalesOffice_EMPID>
+					<yil:ZSalesOffice_EMP>17894227</yil:ZSalesOffice_EMP>
+					<a12:ZPrimarySiteAccountID>17894227</a12:ZPrimarySiteAccountID>
+					<a12:ZAddressCMATID_salesoffice>17894227
+					</a12:ZAddressCMATID_salesoffice>
+					<a12:ZAddressCMATID>17894227</a12:ZAddressCMATID>
+					<a12:Z_CMAT_ID>6053303</a12:Z_CMAT_ID>
+					<yil:Z_CMAT_ID_SDK>6053303</yil:Z_CMAT_ID_SDK>
+					<a12:AreasofInterest>101,111,121</a12:AreasofInterest>
+					<a12:AdditionalJobRole>201,301,131,101,121,291,141
+					</a12:AdditionalJobRole>
+					<a12:ZEmail_KUT>test2waybinding@ntta.com</a12:ZEmail_KUT>
+					<a12:ZCampaignLeadGen>false</a12:ZCampaignLeadGen>
+					<a12:ZNewsAlerts>false</a12:ZNewsAlerts>
+					<a12:ZSurveys>false</a12:ZSurveys>
+					<a12:ZNewsletter>false</a12:ZNewsletter>
+					<a12:ZEventsOnlineEvents>false</a12:ZEventsOnlineEvents>
+					<a12:ZTechnicalBusinessUpdates>false
+					</a12:ZTechnicalBusinessUpdates>
+					<a12:ZPEUser>101</a12:ZPEUser>
+					<a12:ZContactActivationStatus>Active</a12:ZContactActivationStatus>
+					<a12:SSOApprovalStatus>111</a12:SSOApprovalStatus>
+					<a12:ZSSOApprovalStatus>111</a12:ZSSOApprovalStatus>
+					<a12:ZBusinessLastModifiedDate>2018-03-21T00:00:00Z
+					</a12:ZBusinessLastModifiedDate>
+					<a12:ZContactActivationStatus>Active</a12:ZContactActivationStatus>
+					<a12:SSOApprovalStatus>111</a12:SSOApprovalStatus>
+					<a12:ZSSOApprovalStatus>111</a12:ZSSOApprovalStatus>
+					<a12:ZBusinessChangeDate>2018-03-21T09:08:00Z
+					</a12:ZBusinessChangeDate>
+					<a12:ZBusinessChangeDTStamp>20180321090800.000000
+					</a12:ZBusinessChangeDTStamp>
+					<a12:ZCreatorSourceSystem>C4C_UserREG</a12:ZCreatorSourceSystem>
+					<a12:ZUpdatedbySourceSystem>C4C_UserREG
+					</a12:ZUpdatedbySourceSystem>
+					<a12:ZBusinessCreateDate>2018-03-21T09:08:00Z
+					</a12:ZBusinessCreateDate>
+					<a12:ZIntegrationRequired>true</a12:ZIntegrationRequired>
+				</ContactPerson>
+			</ChannelPartner>
+		</glob:ChannelPartnerBundleMaintainRequest_sync_V1>
+	</soapenv:Body>
+</soapenv:Envelope>
+
+<!-- Staging AREA -->
+success in manage staging area:
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:glob="http://sap.com/xi/SAPGlobal20/Global">
+	<soapenv:Header />
+	<soapenv:Body>
+		<glob:StagingAreaCreateRequest_sync>
+			<StagingArea>
+				<ZRequestStatus>01</ZRequestStatus>
+				<ZCreatorSourceSystem>PartnerRegForm</ZCreatorSourceSystem>
+				<SubmittedDate>2018-03-21</SubmittedDate>
+				<ZFirstName>Bianca</ZFirstName>
+				<ZLastName>Silva</ZLastName>
+				<ZBusiness_Function>Executive</ZBusiness_Function>
+				<ZRole_Code>CEO / President</ZRole_Code>
+				<ZLanguage_Preference>None</ZLanguage_Preference>
+				<Ztitletext>ceo</Ztitletext>
+				<ZPhone>+1 114-584-4190</ZPhone>
+				<ZEmail>bianca.silva@morganit.com.br</ZEmail>
+				<ZUserName>Bianca123</ZUserName>
+				<ZAutoapprove>true</ZAutoapprove>
+				<ZCampaignLeadGen>false</ZCampaignLeadGen>
+				<ZNewsAlerts>false</ZNewsAlerts>
+				<ZNewsLetters>false</ZNewsLetters>
+				<ZEventsOnlineEvents>false</ZEventsOnlineEvents>
+				<ZTechnicalBusinessUpdates>false</ZTechnicalBusinessUpdates>
+				<ZSurveys>false</ZSurveys>
+				<ZPartnerContactRecord>800167618</ZPartnerContactRecord>
+				<ZName>Morgan IT</ZName>
+				<ZCMATID>19842093</ZCMATID>
+				<ZAddressCMATID>19842094</ZAddressCMATID>
+				<ZPEUser>101</ZPEUser>
+				<AreasofInterest>101,111</AreasofInterest>
+				<AdditionalJobRole>131,101</AdditionalJobRole>
+				<ZPartnerAddress1>Rua das Pitangueiras 638</ZPartnerAddress1>
+				<ZPartnerAddress2>Sala 12</ZPartnerAddress2>
+				<ZCountry>BR</ZCountry>
+				<ZStateProvince></ZStateProvince>
+				<ZCity>Jundiai</ZCity>
+				<ZPostalCode>13206-716</ZPostalCode>
+				<ZPartnerCompanyExists>true</ZPartnerCompanyExists>
+				<ZPartnerCompanyRecord>19842093</ZPartnerCompanyRecord>
+				<ZSalesOfficeAddress1>Rua das Pitangueiras 638
+				</ZSalesOfficeAddress1>
+				<ZSalesOfficeCity>Jundiai</ZSalesOfficeCity>
+				<ZSalesOfficeCountry>BR</ZSalesOfficeCountry>
+				<ZSalesOfficePostalCode>13206-716</ZSalesOfficePostalCode>
+				<ZSalesOfficeStateProvince></ZSalesOfficeStateProvince>
+				<ZSalesOfficeRecord>19842094</ZSalesOfficeRecord>
+				<ZSalesOfficeAddress2>Sala 12</ZSalesOfficeAddress2>
+				<ZSalesOfficeRecord>19842094</ZSalesOfficeRecord>
+				<ZPartnerSiteOfficeExists>true</ZPartnerSiteOfficeExists>
+			</StagingArea>
+		</glob:StagingAreaCreateRequest_sync>
+	</soapenv:Body>
+</soapenv:Envelope>
+
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/"
+	xmlns:glob="http://sap.com/xi/SAPGlobal20/Global" xmlns:a12="http://sap.com/xi/AP/CustomerExtension/BYD/A126Q"
+	xmlns:yil="http://0001228888-one-off.sap.com/YILB8I58Y_">
+	<soapenv:Header />
+	<soapenv:Body>
+		<glob:ChannelPartnerBundleMaintainRequest_sync_V1>
+			<ChannelPartner actionCode="02">
+				<InternalID>6053303</InternalID>
+				<ContactPerson actionCode="01"
+					workplaceTelephoneListCompleteTransmissionIndicator="true">
+					<GivenName>testcontactadminfrist</GivenName>
+					<FamilyName>testcontactadminlast</FamilyName>
+					<a12:ZUserName>companyadmin01</a12:ZUserName>
+					<a12:ZUserID>companyadmin01</a12:ZUserID>
+					<a12:ZJobRole>231</a12:ZJobRole>
+					<a12:ZBusinessFunction>121</a12:ZBusinessFunction>
+					<a12:ZLanguagePreference>EN</a12:ZLanguagePreference>
+					<a12:ZTitle>Mr</a12:ZTitle>
+					<WorkplaceEmailURI>testcontactadmin123@ntta.com</WorkplaceEmailURI>
+					<WorkplaceTelephone>
+						<FormattedNumberDescription>7045672341
+						</FormattedNumberDescription>
+						<MobilePhoneNumberIndicator>false</MobilePhoneNumberIndicator>
+					</WorkplaceTelephone>
+					<OrgBusinessAddressInformation>
+						<StreetName>757 3rd Ave</StreetName>
+						<StreetPrefix>Fl 14</StreetPrefix>
+						<AdditionalStreetPrefix></AdditionalStreetPrefix>
+						<CountryCode>US</CountryCode>
+						<RegionCode>NY</RegionCode>
+						<CityName>New York</CityName>
+						<StreetPostalCode>10017</StreetPostalCode>
+					</OrgBusinessAddressInformation>
+					<a12:ZSaleOfficeID_KUT>17894227</a12:ZSaleOfficeID_KUT>
+					<yil:ZSalesOffice_EMPID>17894227</yil:ZSalesOffice_EMPID>
+					<yil:ZSalesOffice_EMP>17894227</yil:ZSalesOffice_EMP>
+					<a12:ZPrimarySiteAccountID>17894227</a12:ZPrimarySiteAccountID>
+					<a12:ZAddressCMATID_salesoffice>17894227
+					</a12:ZAddressCMATID_salesoffice>
+					<a12:ZAddressCMATID>17894227</a12:ZAddressCMATID>
+					<a12:Z_CMAT_ID>6053303</a12:Z_CMAT_ID>
+					<yil:Z_CMAT_ID_SDK>6053303</yil:Z_CMAT_ID_SDK>
+					<a12:AreasofInterest>111</a12:AreasofInterest>
+					<a12:AdditionalJobRole>131,111</a12:AdditionalJobRole>
+					<a12:ZEmail_KUT>testcontactadmin123@ntta.com</a12:ZEmail_KUT>
+					<a12:ZCampaignLeadGen>false</a12:ZCampaignLeadGen>
+					<a12:ZNewsAlerts>false</a12:ZNewsAlerts>
+					<a12:ZSurveys>false</a12:ZSurveys>
+					<a12:ZNewsletter>false</a12:ZNewsletter>
+					<a12:ZEventsOnlineEvents>false</a12:ZEventsOnlineEvents>
+					<a12:ZTechnicalBusinessUpdates>false
+					</a12:ZTechnicalBusinessUpdates>
+					<a12:ZPEUser>101</a12:ZPEUser>
+					<a12:ZCompanyAdmin>true</a12:ZCompanyAdmin>
+					<a12:ZContactActivationStatus>Active</a12:ZContactActivationStatus>
+					<a12:SSOApprovalStatus>111</a12:SSOApprovalStatus>
+					<a12:ZSSOApprovalStatus>111</a12:ZSSOApprovalStatus>
+					<a12:ZBusinessLastModifiedDate>2018-03-29T00:00:00Z
+					</a12:ZBusinessLastModifiedDate>
+					<a12:ZContactActivationStatus>Active</a12:ZContactActivationStatus>
+					<a12:SSOApprovalStatus>111</a12:SSOApprovalStatus>
+					<a12:ZSSOApprovalStatus>111</a12:ZSSOApprovalStatus>
+					<a12:ZBusinessChangeDate>2018-03-29T09:21:00Z
+					</a12:ZBusinessChangeDate>
+					<a12:ZBusinessChangeDTStamp>20180329092100.000000
+					</a12:ZBusinessChangeDTStamp>
+					<a12:ZCreatorSourceSystem>C4C_UserREG</a12:ZCreatorSourceSystem>
+					<a12:ZUpdatedbySourceSystem>C4C_UserREG
+					</a12:ZUpdatedbySourceSystem>
+					<a12:ZBusinessCreateDate>2018-03-29T09:21:00Z
+					</a12:ZBusinessCreateDate>
+					<a12:ZIntegrationRequired>true</a12:ZIntegrationRequired>
+				</ContactPerson>
+			</ChannelPartner>
+		</glob:ChannelPartnerBundleMaintainRequest_sync_V1>
+	</soapenv:Body>
+</soapenv:Envelope>
